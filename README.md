@@ -33,14 +33,6 @@ In [13]:
 a[1]
 Out[13]:
 'natural number'
-In [14]:
-a[7]
----------------------------------------------------------------------------
-KeyError                                  Traceback (most recent call last)
-<ipython-input-14-9cf13ba20553> in <module>
-----> 1 a[7]
-
-KeyError: 7
 In [15]:
 a.get(1)
 Out[15]:
@@ -55,18 +47,18 @@ a.get(7,"not found")
 Out[19]:
 'not found'
 In [20]:
-keys = ["balu","rohit","karthik"]
+keys = ["siva","rohit","karthik"]
 values = ["python","c","java"]
 In [21]:
 data = dict(zip(keys,values))
 In [22]:
 print(data)
-{'balu': 'python', 'rohit': 'c', 'karthik': 'java'}
+{'siva': 'python', 'rohit': 'c', 'karthik': 'java'}
 In [23]:
 data["lovely"] = "cs"
 In [24]:
 print(data)
-{'balu': 'python', 'rohit': 'c', 'karthik': 'java', 'lovely': 'cs'}
+{'siva': 'python', 'rohit': 'c', 'karthik': 'java', 'lovely': 'cs'}
 In [30]:
 s = {11,22,33,44,55}
 In [26]:
